@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# 模型文件
+*.bin
+*.safetensors
+qwen_ebook_finetuned/
+training_args.bin
+
+# 电子书文件（用户数据）
+books/*.txt
+books/*.md
+!books/README.txt
+
+# 训练日志
+*.log
+processing_stats.json
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
